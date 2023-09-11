@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+
+    <style>
+      html {
+        display: flex;
+        justify-content: center;
+        background-color: #F8F0E5;
+        box-sizing: border-box;
+      }
+      .card {
+        width: 100vw;
+        background-color: #DAC0A3;
+        }
+      .card-item {
+        width: 100%;
+        background-color: #EADBC8;
+        color: #0F2C59;
+        border: 1vw solid #DAC0A3;
+        font-size: 1.5rem;
+        font-family: 'Poltawski Nowy', serif;
+        }
+    </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-body">
+
+      <h1></h1>
+
+      <form action="https://formsubmit.co/kakirej243@chambile.com" method="post">    
+        <input class="card-item" type="text" name="name" required placeholder="Full Name">       
+           
+        <input class="card-item" type="email" name="email" required placeholder="E-mail">          
+          
+        <input class="card-item" type="tel" name="contct-num" placeholder="Contact Number(optional)">         
+
+        <textarea class="card-item" type="text" name="message" required placeholder="Your message here ..."></textarea>         
+            
+        <div>
+        <button class="card-item" type="submit">Send</button>
+        </div>
+          
+        <input type="hidden" name="_next" value="http://127.0.0.1:3002/submission/sub.html">
+        <input type="hidden" name="_template" value="box">
+      </form>
+
+    </div>
+  </div>
+
+  
+
+</body>
+</html>
